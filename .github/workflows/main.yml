@@ -20,4 +20,4 @@
          aws-region: af-south-1
 
      - name: Deploy static site to S3 bucket
-       run: aws s3 sync . s3://your-bucket-name --delete
+       run: aws s3 sync . s3://3s1-action --delete
